@@ -14,7 +14,7 @@ module.exports = {
     *    var n = 1
     *
     *    client.repeatSteps(3, () => {
-    *        console.log("Repeat Steps itteration: "  +n);
+    *        console.log("Repeat Steps iteration: "  +n);
     *        n++;
     *    })
     *    client.end();

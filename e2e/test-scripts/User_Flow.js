@@ -39,7 +39,7 @@ module.exports = {
         //Add item to cart
         client.waitForElementPresent('#add_to_cart > button');
         client.click(constants.SELECTORS.CSS, '#add_to_cart > button');
-        //Validate checkout pop up and procedd to checkout
+        //Validate checkout pop up and proceed to checkout
         client.pause(constants.PAUSE.pauseFor3); // waiting for add to cart and modal pop
         client.waitForElementPresent(constants.SELECTORS.CSS, '[title="Proceed to checkout"]');
         client.pause(constants.PAUSE.pauseFor3); // waiting for element to be active
@@ -91,7 +91,7 @@ module.exports = {
         //e2e.userLogin(constants.USER_FLOW.email, constants.USER_FLOW.pass);
         //Select first item form Dresses list
         e2e.addItem(constants.USER_FLOW.itemLink, constants.USER_FLOW.itemName, constants.USER_FLOW.itemURL);
-        //Validate checkout pop up and procedd to checkout
+        //Validate checkout pop up and proceed to checkout
         e2e.cartModal(constants.USER_FLOW.orderSumURL);
         //Validate summary page
         e2e.orderSummary();
