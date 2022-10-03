@@ -14,3 +14,4 @@ e2e/test-scripts/.DS_Store
 
 #repo files
 package-lock.json
+.env
