@@ -56,7 +56,7 @@ Run npm install from the project directory.
 - chromedriver
 - selenium server
 
-**Note:** If Chrome versions is updated, run the following command if tests start to fail:
+**Note:** If Chrome version is updated, run the following command if tests start to fail: (and don't forget to update your package.json!!!)
 ```
 npm install chromedriver --chromedriver_version=LATEST
 ```
