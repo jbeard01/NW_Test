@@ -1,6 +1,7 @@
 # NW Training: QA Automation
 
 This is a training and practice project for NightWatch.js. It uses an ecommerce site created by the Selenium team for use with automation learning
+
 Use this project to 
  - test your local development environment
  - setup new projects
