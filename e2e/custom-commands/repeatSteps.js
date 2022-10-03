@@ -11,7 +11,7 @@
  * // Output i 3 times with values
  *   var i = 1
  *   client.repeatSteps(3, () => {
- *       console.log("Repeat Steps itteration: "  +i);
+ *       console.log("Repeat Steps iteration: "  +i);
  *       i++;
  *   })
  */
