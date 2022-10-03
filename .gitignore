@@ -1,0 +1,16 @@
+# node modules
+node_modules
+
+#reports and screen shots
+reports/html-reports
+screens/
+
+#system files
+.DS_Store
+.vscode/
+chromedriver.log
+e2e/.DS_Store
+e2e/test-scripts/.DS_Store
+
+#repo files
+package-lock.json
